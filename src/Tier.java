@@ -1,4 +1,4 @@
-public class Tier {
+public abstract class Tier {
 	
 	private String name;
 	

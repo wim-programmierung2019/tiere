@@ -1,10 +1,7 @@
-public class Vierbeiner extends Säugetier{
+public interface Vierbeiner{
+
+    public boolean kannKriechen();
     
-    int anzahl_beine;
-
-	public Vierbeiner(String name) {
-		super(name);
-		// TODO Auto-generated constructor stub
-	}
-
+    public boolean kannLaufen();
+    
 }

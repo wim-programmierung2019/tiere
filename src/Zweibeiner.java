@@ -1,7 +1,5 @@
-public class Zweibeiner extends Säugetier{
+public interface Zweibeiner {
 
-	public Zweibeiner(String name) {
-		super(name);
-		// TODO Auto-generated constructor stub
-	}
+	public boolean kannHuepfen();
+	
 }

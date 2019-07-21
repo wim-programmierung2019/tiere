@@ -1,10 +1,10 @@
 
-public class Hund extends Saeugetier implements Vierbeiner {
-
-	public Hund(String name) {
-		super(name);
-	}
-
+public class Echse extends Reptil implements Vierbeiner {
+    
+    public Echse(String name){
+        super(name);
+    }
+    
     public boolean kannKriechen(){
         return false;
     }
